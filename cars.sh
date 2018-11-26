@@ -20,7 +20,7 @@ case $CHOICE in
 	   read MAKE 
 	   echo "Enter the model of the car: "
 	   read MODEL
-	   echo "$YEAR:$MAKE:$MODEL">>My_old_cars
+	   echo "$YEAR $MAKE $MODEL">>My_old_cars
 	   ;;
 
 	2) sort My_old_cars
